@@ -8,15 +8,15 @@ async function loadJSON(file) {
 
 function updateTime() {
   loadJSON("date_time.json").then(data => {
-    document.getElementById("timeDisplay").textContent = data.time || "No time data";
+    document.getElementById("timeDisplay").textContent = data.current_time || "No time data";
   });
 }
 
 function updateWeather() {
   loadJSON("weather.json").then(data => {
-    const { temp, humid, forecast } = data;
+    const { tmp, hum, next } = data;
     document.getElementById("weatherDisplay").textContent =
-      `Temp: ${temp}°C, Hum: ${humid}%, Forecast: ${forecast}`;
+      `Temp: ${tmp}, Hum: ${hum}, Forecast: ${next}`;
   });
 }
 
