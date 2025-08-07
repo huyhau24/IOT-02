@@ -1,0 +1,14 @@
+{
+  "M1": [
+    { "time": "06:00", "state": "ON" },
+    { "time": "07:00", "state": "OFF" },
+    { "time": "17:00", "state": "ON" },
+    { "time": "18:00", "state": "OFF" }
+  ],
+  "M2": [
+    { "time": "08:00", "state": "ON" },
+    { "time": "09:00", "state": "OFF" }
+  ],
+  "M3": [],
+  "M4": []
+}
