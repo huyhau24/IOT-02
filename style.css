@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.info-panels {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.device-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.device label {
+  margin-right: 10px;
+}
+button {
+  padding: 8px 16px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
