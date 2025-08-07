@@ -1,4 +1,4 @@
-const baseURL = "https://raw.githubusercontent.com/huyhau24/IOT-02/main/api/";
+const baseURL = "https://github.com/huyhau24/IOT-02/tree/main/api/";
 
 async function loadJSON(file) {
   const res = await fetch(baseURL + file);
